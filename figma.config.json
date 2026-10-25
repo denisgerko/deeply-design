@@ -1,55 +1,269 @@
 {
   "product": {
     "name": "Deeply",
-    "fileKey": "{{PRODUCT_FILE_KEY}}",
+    "fileKey": "PNp69l0SBA6ttpwbSHvRhK",
     "libraryFileKey": "",
     "access": "read-only",
-    "referenceScreens": {},
-    "notes": "Эталон экранов и ДС. Никаких узлов не создавать."
+    "referenceScreens": {
+      "quizIntro": "40002677:35294",
+      "singleSelect": "40002677:35327",
+      "infoContinue": "40002678:35293",
+      "singleSelectEmoji": "40002678:35311",
+      "multiSelect": "40003077:13668",
+      "yesNo": "40003080:14874",
+      "textInput": "40003086:81153",
+      "summary": "40003086:15596",
+      "loginKeyboard": "40000089:55925",
+      "account": "40000089:55935",
+      "loader": "40000089:56338",
+      "modalOverOverlay": "40000089:56584",
+      "contactForm": "40000089:55638"
+    },
+    "notes": "D-claude — дубликат продукта, он же рабочий (вариант A). Оригинал продукта не указан. Экраны продукта не трогаем — фичи на новых страницах."
   },
   "work": {
-    "fileKey": "egKNo9glevXEig31td5TNM",
+    "fileKey": "PNp69l0SBA6ttpwbSHvRhK",
     "mode": "A",
     "pages": {},
     "featurePages": {}
   },
   "profile": {
     "platform": "web",
-    "screen": { "sizes": [[1440, 1024]], "tolerance": 60 },
-    "fonts": [],
-    "color": { "system": "{{COLOR_SYSTEM}}", "collections": [] },
-    "colors": {
-      "screenBg": "", "surface": "", "border": "",
-      "textPrimary": "", "textSecondary": "", "accent": "", "onAccent": "",
-      "icon": "", "iconAccent": "", "danger": "", "dimming": ""
+    "screen": {
+      "sizes": [
+        [
+          375,
+          812
+        ]
+      ],
+      "tolerance": 4
     },
-    "text": { "largeTitle": "", "title": "", "headline": "", "body": "", "callout": "", "caption": "", "button": "" },
-    "spacing": { "map": {} },
-    "radius": { "map": {}, "fullValue": 999 },
-    "effects": {},
-    "dark": { "strategy": "{{DARK_STRATEGY}}", "collections": [], "styleMap": [] },
-    "roles": {},
-    "skipInside": [],
+    "fonts": [
+      [
+        "Roboto Serif",
+        "SemiBold"
+      ],
+      [
+        "Roboto Serif",
+        "Regular"
+      ],
+      [
+        "Inter",
+        "Regular"
+      ],
+      [
+        "Inter",
+        "Medium"
+      ],
+      [
+        "Inter",
+        "Semi Bold"
+      ],
+      [
+        "Inter",
+        "Bold"
+      ],
+      [
+        "Inter",
+        "Extra Bold"
+      ],
+      [
+        "SF Pro Text",
+        "Regular"
+      ]
+    ],
+    "color": {
+      "system": "styles",
+      "collections": [
+        "Palette",
+        "Primitives"
+      ]
+    },
+    "colors": {
+      "screenBg": "Brand/Background",
+      "surface": "Base/White100",
+      "border": "Base/Gray20",
+      "textPrimary": "Base/Gray100",
+      "textSecondary": "Base/Gray80",
+      "accent": "Brand/Brand",
+      "onAccent": "Base/White100",
+      "icon": "Base/Gray100",
+      "iconAccent": "Brand/Brand",
+      "danger": "Accents/Red",
+      "dimming": "Base/Black50%"
+    },
+    "text": {
+      "largeTitle": "Brand/H2",
+      "title": "Brand/H5",
+      "headline": "Body 1/SemiBold",
+      "body": "Body 2/Regular",
+      "callout": "Body 2/Medium",
+      "caption": "Footnote/Regular",
+      "button": "Brand/Button"
+    },
+    "spacing": {
+      "map": {
+        "0": "None",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8",
+        "12": "12",
+        "16": "16",
+        "20": "20",
+        "24": "24",
+        "32": "32",
+        "40": "40",
+        "48": "48",
+        "56": "56",
+        "64": "64"
+      }
+    },
+    "radius": {
+      "map": {
+        "0": "None",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8",
+        "12": "12",
+        "16": "16",
+        "20": "20",
+        "24": "24",
+        "32": "32"
+      },
+      "fullValue": 30
+    },
+    "effects": {
+      "card": "Shadow/ShadowGray",
+      "cardWarm": "Shadow/ShadowCoral"
+    },
+    "dark": {
+      "strategy": "none",
+      "collections": [],
+      "styleMap": []
+    },
+    "roles": {
+      "statusBar": [
+        "^Status Bar iOS"
+      ],
+      "homeIndicator": [
+        "^Browser iOS / Safari Bottom",
+        "^Browser Bar iOS",
+        "^Home Indicator"
+      ],
+      "cta": [
+        "^Button_bottom",
+        "^Buttons Yes/No",
+        "^Bottom$",
+        "^Timer & button"
+      ],
+      "navBar": [
+        "^Navigation Header",
+        "^App icon header"
+      ],
+      "dimming": [
+        "^Overlay$"
+      ],
+      "modal": [
+        "^Modal"
+      ],
+      "loader": [
+        "^spinner",
+        "^loader"
+      ],
+      "content": [
+        "^Body$"
+      ]
+    },
+    "skipInside": [
+      "^Status Bar iOS",
+      "^Browser iOS",
+      "^Browser Bar iOS",
+      "^Home Indicator",
+      "^Keyboard/",
+      "^iOS /",
+      "^Illustration"
+    ],
     "materials": null,
-    "icons": { "page": "", "size": 24, "color": "", "accent": "" },
-    "pages": { "divider": "---", "components": [] },
+    "icons": {
+      "page": "Design System",
+      "size": 24,
+      "color": "Base/Gray100",
+      "accent": "Brand/Brand"
+    },
+    "pages": {
+      "divider": "---- 1",
+      "components": [
+        "Design System"
+      ]
+    },
     "flow": {
       "connectorTemplate": "",
-      "line": "", "label": "", "labelBg": "",
-      "font": ["Inter", "Regular"], "size": 13, "lineHeight": 18,
-      "note": { "bg": "", "border": "", "title": "", "text": "", "titleStyle": "", "bodyStyle": "", "radius": 16, "pad": 20, "width": 280 }
+      "line": "",
+      "label": "",
+      "labelBg": "",
+      "font": [
+        "Inter",
+        "Regular"
+      ],
+      "size": 13,
+      "lineHeight": 18,
+      "note": {
+        "bg": "",
+        "border": "",
+        "title": "",
+        "text": "",
+        "titleStyle": "",
+        "bodyStyle": "",
+        "radius": 16,
+        "pad": 20,
+        "width": 280
+      }
     },
-    "keys": { "variables": {}, "styles": {} }
+    "keys": {
+      "variables": {},
+      "styles": {}
+    }
   },
   "nativeKit": {
     "library": "",
     "keys": {},
     "wrappers": {}
   },
-  "components": {},
+  "components": {
+    "Button / Primary": "63:24502 — State Default|Secondary|Disabled, Start/End Icon, Label",
+    "Button_bottom": "63:24352 — нижняя CTA-панель 375×88",
+    "Buttons Yes/No": "на экранах yes-no-*",
+    "Options": "63:24571 — карточка-вариант ответа (Start Img/Icon, End Icon, Active|Default)",
+    "Options Content": "63:24546",
+    "Tabs": "63:24558",
+    "Inputs": "63:24688 — Default|Disabled|Error|Filled|Focus",
+    "Inputs Content": "63:24784",
+    "Dropdowns": "63:24822",
+    "Options dropdowns": "63:24797",
+    "start_end": "67:54301 — radio/checkbox",
+    "Navigation Header": "63:24307",
+    "App icon header and progress": "63:24344",
+    "Header": "63:24347",
+    "Modal": "74:23291",
+    "Modal2": "74:23372",
+    "Overlay": "74:23176",
+    "Tips": "67:55702",
+    "Comment": "63:24496 — заметка над экраном",
+    "Price / Plans / Top Checkout / Money-Back / Secure / Timer & button": "пейвол/чекаут",
+    "Status Bar iOS iPhone": "68:57001 (кит)",
+    "Browser iOS / Safari Bottom": "68:57024 (кит)",
+    "Keyboard/Default": "68:59375 (кит)"
+  },
   "icons": {},
   "images": {},
   "screens": {},
   "flows": {},
-  "decisions": {}
+  "decisions": {
+    "rawValues": "В продукте ~22% заливок сырые (в основном #000/#fff внутри кита) и большая часть текста без text style (288 из 323 узлов) — норма продукта; в новых экранах ставим стили.",
+    "brandThemes": "Коллекция Palette: режимы Green / Violet (переменная Brand). На экранах не используется — экраны на paint styles Brand/*. Уточнить.",
+    "darkTheme": "Нет в продукте — dark-копии не делаем.",
+    "platform": "Мобильный веб: экраны 375×812 внутри Safari (статус-бар + нижний бар браузера)."
+  }
 }
