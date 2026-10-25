@@ -278,7 +278,15 @@
       "Processing": "40005012:82620",
       "Card declined": "40005012:82875",
       "section": "40005012:83112",
-      "componentsSection": "40005010:13360"
+      "componentsSection": "40005010:13360",
+      "1-4 states": [
+        "40005012:81630",
+        "40005031:14466",
+        "40005031:14737",
+        "40005031:15008",
+        "40005031:15279",
+        "40005031:15550"
+      ]
     }
   },
   "flows": {},
@@ -316,7 +324,8 @@
         "Бейдж экономии «Save 87%» в итоге ($74.94 → $9.99)",
         "Цена в CTA: «Add to my plan · $9.99/mo»"
       ],
-      "printables": "4+: Autumn Games Pack, Kids’ Feelings Weather, Rainy Day Indoor Play Bank; 1-4: 30 Days of Autumn Play, Halloween Without Overwhelm, Clock Change Sleep Guide (превью с thedeeply.app/useful-materials)"
+      "printables": "4+: Autumn Games Pack, Kids’ Feelings Weather, Rainy Day Indoor Play Bank; 1-4: 30 Days of Autumn Play, Halloween Without Overwhelm, Clock Change Sleep Guide (превью с thedeeply.app/useful-materials)",
+      "content": "4+: список Neuro 4–12, Champion, Tantrums, Yelling, Fast Brain, Autumn Printables; слайдер Anti-Bullying, Teen Years, Sensory Patterns. 1-4: список 6 курсов + Autumn Printables; слайдер Toddler Playbook, Us vs. the Chaos, Sensory Patterns. Все 6 состояний × 2 возраста."
     }
   }
 }
