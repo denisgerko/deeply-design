@@ -302,9 +302,7 @@
         "Ошибка карты (S2) — оверрайд обводки Accents/Red на .Options: варианта Error в ДС нет",
         "Компоненты фичи лежат на странице фичи, не на Design System"
       ],
-      "pending": [
-        "Обложки принтаблов — Рома в пн (сейчас цветные заглушки)"
-      ],
+      "pending": [],
       "polish": [
         "Заголовок: перенос «One membership — / the entire Deeply Library»",
         "Заглушки обложек: цветные плашки бренда с иконкой типа (курс — книга, принтабл — принтер)",
@@ -312,7 +310,8 @@
         "Skip — текстовая ссылка, как «No, thanks» в продуктовых апселах",
         "Порядок низа: CTA → Skip → Pay safe & secure → дескриптор",
         "Слайдер: карточка 240×160 (3:2) под обложки курсов; обложки из Section 1 (40005018:16735) на странице фичи"
-      ]
+      ],
+      "printables": "4+: Autumn Games Pack, Kids’ Feelings Weather, Rainy Day Indoor Play Bank; 1-4: 30 Days of Autumn Play, Halloween Without Overwhelm, Clock Change Sleep Guide (превью с thedeeply.app/useful-materials)"
     }
   }
 }
