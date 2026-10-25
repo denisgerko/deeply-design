@@ -293,8 +293,15 @@
       },
       "viewport": "первый кадр в каждой борде: Default 375×812",
       "giftBox": {
-        "screen": "40005034:15741",
-        "section": "40005034:16024"
+        "section": "40005034:16024",
+        "states": [
+          "40005034:15741",
+          "40005036:15832",
+          "40005036:16025",
+          "40005036:16239",
+          "40005036:16495",
+          "40005036:16726"
+        ]
       }
     }
   },
@@ -335,7 +342,7 @@
       ],
       "printables": "4+: Autumn Games Pack, Kids’ Feelings Weather, Rainy Day Indoor Play Bank; 1-4: 30 Days of Autumn Play, Halloween Without Overwhelm, Clock Change Sleep Guide (превью с thedeeply.app/useful-materials)",
       "content": "4+: список Neuro 4–12, Champion, Tantrums, Yelling, Fast Brain, Autumn Printables; слайдер Anti-Bullying, Teen Years, Sensory Patterns. 1-4: список 6 курсов + Autumn Printables; слайдер Toddler Playbook, Us vs. the Chaos, Sensory Patterns. Все 6 состояний × 2 возраста.",
-      "giftBoxVariant": "Альтернатива 1-4: зелёный герой с веером обложек, сетка цветных плиток «FREE», жёлтый бонус-баннер, ценовая плашка Save 87%, CTA «Unwrap my library». Референсы Mobbin: Duolingo, foodpanda, Lex, BitePal."
+      "giftBoxVariant": "Альтернатива 1-4: зелёный герой с веером обложек, сетка цветных плиток «FREE», жёлтый бонус-баннер, ценовая плашка Save 87%, CTA «Unwrap my library». Референсы Mobbin: Duolingo, foodpanda, Lex, BitePal. Бонус-баннер переведён на Brand/Brand Light 2 (как Also included) по просьбе пользователя."
     }
   }
 }
