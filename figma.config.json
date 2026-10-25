@@ -261,7 +261,8 @@
     "Upsell / Library list": "40005010:13273 — Age=4+|1-4 (2026-10-25)",
     "Upsell / Change payment method": "40005010:13339 — Expanded=False|True (2026-10-25)",
     "Upsell / Declined banner": "40005010:13340 (2026-10-25)",
-    "Upsell / Error hint": "40005010:13354 (2026-10-25)"
+    "Upsell / Error hint": "40005010:13354 (2026-10-25)",
+    "Upsell / Card logo · Visa": "40005028:14431 — 40×40 обёртка логотипа Visa для слота .Options (2026-10-25)"
   },
   "icons": {},
   "images": {
@@ -300,7 +301,8 @@
       "deviations": [
         "Шагов-степпера нет — как в прототипе (TopBar step=none)",
         "Ошибка карты (S2) — оверрайд обводки Accents/Red на .Options: варианта Error в ДС нет",
-        "Компоненты фичи лежат на странице фичи, не на Design System"
+        "Компоненты фичи лежат на странице фичи, не на Design System",
+        "Логотип Visa в слоте .Options — через обёртку 40×40: слот фиксирован и сплющивал логотип"
       ],
       "pending": [],
       "polish": [
