@@ -1,0 +1,55 @@
+{
+  "product": {
+    "name": "Deeply",
+    "fileKey": "{{PRODUCT_FILE_KEY}}",
+    "libraryFileKey": "",
+    "access": "read-only",
+    "referenceScreens": {},
+    "notes": "Эталон экранов и ДС. Никаких узлов не создавать."
+  },
+  "work": {
+    "fileKey": "egKNo9glevXEig31td5TNM",
+    "mode": "A",
+    "pages": {},
+    "featurePages": {}
+  },
+  "profile": {
+    "platform": "web",
+    "screen": { "sizes": [[1440, 1024]], "tolerance": 60 },
+    "fonts": [],
+    "color": { "system": "{{COLOR_SYSTEM}}", "collections": [] },
+    "colors": {
+      "screenBg": "", "surface": "", "border": "",
+      "textPrimary": "", "textSecondary": "", "accent": "", "onAccent": "",
+      "icon": "", "iconAccent": "", "danger": "", "dimming": ""
+    },
+    "text": { "largeTitle": "", "title": "", "headline": "", "body": "", "callout": "", "caption": "", "button": "" },
+    "spacing": { "map": {} },
+    "radius": { "map": {}, "fullValue": 999 },
+    "effects": {},
+    "dark": { "strategy": "{{DARK_STRATEGY}}", "collections": [], "styleMap": [] },
+    "roles": {},
+    "skipInside": [],
+    "materials": null,
+    "icons": { "page": "", "size": 24, "color": "", "accent": "" },
+    "pages": { "divider": "---", "components": [] },
+    "flow": {
+      "connectorTemplate": "",
+      "line": "", "label": "", "labelBg": "",
+      "font": ["Inter", "Regular"], "size": 13, "lineHeight": 18,
+      "note": { "bg": "", "border": "", "title": "", "text": "", "titleStyle": "", "bodyStyle": "", "radius": 16, "pad": 20, "width": 280 }
+    },
+    "keys": { "variables": {}, "styles": {} }
+  },
+  "nativeKit": {
+    "library": "",
+    "keys": {},
+    "wrappers": {}
+  },
+  "components": {},
+  "icons": {},
+  "images": {},
+  "screens": {},
+  "flows": {},
+  "decisions": {}
+}
