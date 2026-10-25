@@ -25,7 +25,9 @@
     "fileKey": "PNp69l0SBA6ttpwbSHvRhK",
     "mode": "A",
     "pages": {},
-    "featurePages": {}
+    "featurePages": {
+      "Library upsell": "40005010:13127"
+    }
   },
   "profile": {
     "platform": "web",
@@ -254,16 +256,54 @@
     "Price / Plans / Top Checkout / Money-Back / Secure / Timer & button": "пейвол/чекаут",
     "Status Bar iOS iPhone": "68:57001 (кит)",
     "Browser iOS / Safari Bottom": "68:57024 (кит)",
-    "Keyboard/Default": "68:59375 (кит)"
+    "Keyboard/Default": "68:59375 (кит)",
+    "Upsell / Cover card": "40005010:13150 — Kind=Course|Printable, Title (2026-10-25)",
+    "Upsell / Library list": "40005010:13273 — Age=4+|1-4 (2026-10-25)",
+    "Upsell / Change payment method": "40005010:13339 — Expanded=False|True (2026-10-25)",
+    "Upsell / Declined banner": "40005010:13340 (2026-10-25)",
+    "Upsell / Error hint": "40005010:13354 (2026-10-25)"
   },
   "icons": {},
   "images": {},
-  "screens": {},
+  "screens": {
+    "Library upsell": {
+      "Default 4+": "40005012:13190",
+      "Default 1-4": "40005012:81630",
+      "Error no method": "40005012:81886",
+      "Saved card selected": "40005012:82103",
+      "Change payment method": "40005012:82340",
+      "Processing": "40005012:82620",
+      "Card declined": "40005012:82875",
+      "section": "40005012:83112",
+      "componentsSection": "40005010:13360"
+    }
+  },
   "flows": {},
   "decisions": {
     "rawValues": "В продукте ~22% заливок сырые (в основном #000/#fff внутри кита) и большая часть текста без text style (288 из 323 узлов) — норма продукта; в новых экранах ставим стили.",
     "brandThemes": "Коллекция Palette: режимы Green / Violet (переменная Brand). На экранах не используется — экраны на paint styles Brand/*. Уточнить.",
     "darkTheme": "Нет в продукте — dark-копии не делаем.",
-    "platform": "Мобильный веб: экраны 375×812 внутри Safari (статус-бар + нижний бар браузера)."
+    "platform": "Мобильный веб: экраны 375×812 внутри Safari (статус-бар + нижний бар браузера).",
+    "libraryUpsell": {
+      "source": "ТЗ + прототип Claude (Sensory Kids · Upsell /upsell-6, variant B saved card)",
+      "recipe": "Каркас — клон продуктового upsell 787:18462 (статус-бар, лого, Safari). Кнопки — Button / Primary; сохранённая карта — .Options (Start Icon=24 чекбокс, End Icon=40 → Visa); смена метода — methods + форма карты из checkout 1345:51153; бейдж Pay safe & secure — из checkout.",
+      "edits": [
+        "Заголовок Brand/H5 24 (было 28), отступы 16 до слайдера",
+        "Слайдер: 3 курса + 3 принтабла, обложка + короткое название, без описаний",
+        "X → 40+",
+        "Список кучнее: gap 6",
+        "Other materials / new releases вынесены в блок ALSO INCLUDED на Brand Light 2 с иконками",
+        "Метод оплаты — сохранённая карта с пейвола + Change payment method"
+      ],
+      "deviations": [
+        "Шагов-степпера нет — как в прототипе (TopBar step=none)",
+        "Ошибка карты (S2) — оверрайд обводки Accents/Red на .Options: варианта Error в ДС нет",
+        "Компоненты фичи лежат на странице фичи, не на Design System"
+      ],
+      "pending": [
+        "Обложки курсов — Google Drive недоступен из среды; сейчас плейсхолдеры",
+        "Обложки принтаблов — Рома в пн"
+      ]
+    }
   }
 }
