@@ -262,7 +262,8 @@
     "Upsell / Change payment method": "40005010:13339 — Expanded=False|True (2026-10-25)",
     "Upsell / Declined banner": "40005010:13340 (2026-10-25)",
     "Upsell / Error hint": "40005010:13354 (2026-10-25)",
-    "Upsell / Card logo · Visa": "40005028:14431 — 40×40 обёртка логотипа Visa для слота .Options (2026-10-25)"
+    "Upsell / Card logo · Visa": "40005028:14431 — 40×40 обёртка логотипа Visa для слота .Options (2026-10-25)",
+    "Upsell / Library list v2": "40005040:16516 — по фидбэку продукта: цены $19.99→$6.99, Included-строки, Save на линии (2026-10-26)"
   },
   "icons": {},
   "images": {
@@ -302,6 +303,10 @@
           "40005036:16495",
           "40005036:16726"
         ]
+      },
+      "FINAL": {
+        "1-4": "40005041:16369",
+        "4+": "40005041:17608"
       }
     }
   },
@@ -342,7 +347,14 @@
       ],
       "printables": "4+: Autumn Games Pack, Kids’ Feelings Weather, Rainy Day Indoor Play Bank; 1-4: 30 Days of Autumn Play, Halloween Without Overwhelm, Clock Change Sleep Guide (превью с thedeeply.app/useful-materials)",
       "content": "4+: список Neuro 4–12, Champion, Tantrums, Yelling, Fast Brain, Autumn Printables; слайдер Anti-Bullying, Teen Years, Sensory Patterns. 1-4: список 6 курсов + Autumn Printables; слайдер Toddler Playbook, Us vs. the Chaos, Sensory Patterns. Все 6 состояний × 2 возраста.",
-      "giftBoxVariant": "Альтернатива 1-4: зелёный герой с веером обложек, сетка цветных плиток «FREE», жёлтый бонус-баннер, ценовая плашка Save 87%, CTA «Unwrap my library». Референсы Mobbin: Duolingo, foodpanda, Lex, BitePal. Бонус-баннер переведён на Brand/Brand Light 2 (как Also included) по просьбе пользователя."
+      "giftBoxVariant": "Альтернатива 1-4: зелёный герой с веером обложек, сетка цветных плиток «FREE», жёлтый бонус-баннер, ценовая плашка Save 87%, CTA «Unwrap my library». Референсы Mobbin: Duolingo, foodpanda, Lex, BitePal. Бонус-баннер переведён на Brand/Brand Light 2 (как Also included) по просьбе пользователя.",
+      "productFeedback_2026-10-26": [
+        "Финал = вариант 1 + зелёный герой из Gift box (без What's inside), плашка «Exclusive for Sensory Plan members»",
+        "Итог как в варианте 1; Save-бейдж на линии над итогом; зачёркнутая цена над актуальной",
+        "Цены в списке градацией $19.99→$6.99; итоги 1-4 $90.93 (Save 89%), 4+ $83.94 (Save 88%)",
+        "ALSO INCLUDED строками со «Included»: «+ Also 40+ courses & printables», «+ All future releases»",
+        "Жёлтое в герое заменено на цвета ДС"
+      ]
     }
   }
 }
